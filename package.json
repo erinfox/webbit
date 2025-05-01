@@ -2,7 +2,8 @@
   "name": "app",
   "private": true,
   "devDependencies": {
-    "esbuild": "^0.25.2"
+    "esbuild": "^0.25.2",
+    "prettier-plugin-erb": "^0.4.0"
   },
   "scripts": {
     "tailwind:init": "tailwindcss init",
@@ -12,6 +13,7 @@
   "dependencies": {
     "@hotwired/stimulus": "^3.2.2",
     "@hotwired/turbo-rails": "^8.0.13",
+    "@prettier/plugin-ruby": "^4.0.4",
     "@tailwindcss/forms": "^0.5.10",
     "@tailwindcss/typography": "^0.5.16",
     "autoprefixer": "^10.4.21",
@@ -19,6 +21,7 @@
     "postcss-cli": "^11.0.1",
     "postcss-import": "^16.1.0",
     "postcss-nesting": "^13.0.1",
+    "prettier": "^3.5.3",
     "tailwindcss": "^4.1.4"
   }
 }

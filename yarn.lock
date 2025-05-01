@@ -155,6 +155,11 @@
   resolved "https://registry.yarnpkg.com/@hotwired/turbo/-/turbo-8.0.13.tgz#ab35fda9d358432c8a872a833844b38cccb8c25b"
   integrity sha512-M7qXUqcGab6G5PKOiwhgbByTtrPgKPFCTMNQ52QhzUEXEqmp0/ApEguUesh/FPiUjrmFec+3lq98KsWnYY2C7g==
 
+"@prettier/plugin-ruby@^4.0.4":
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/@prettier/plugin-ruby/-/plugin-ruby-4.0.4.tgz#73d85fc2a1731a3f62b57ac3116cf1c234027cb6"
+  integrity sha512-lCpvfS/dQU5WrwN3AQ5vR8qrvj2h5gE41X08NNzAAXvHdM4zwwGRcP2sHSxfu6n6No+ljWCVx95NvJPFTTjCTg==
+
 "@rails/actioncable@^7.0":
   version "7.2.201"
   resolved "https://registry.yarnpkg.com/@rails/actioncable/-/actioncable-7.2.201.tgz#bfb3da01b3e2462f5a18f372c52dedd7de76037f"
@@ -583,6 +588,23 @@ postcss@^8.5.3:
     nanoid "^3.3.8"
     picocolors "^1.1.1"
     source-map-js "^1.2.1"
+
+prettier-html-templates@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/prettier-html-templates/-/prettier-html-templates-0.1.0.tgz#dfa12bd71c032e3b796e8c645210c5614403575d"
+  integrity sha512-KdLveYzO2kJLiwUAebd5UFeKP8h3OqFhOiLbkgeIuS1WNoCRTyxW4KuyGfbh3F+Rp/2A6mipRxCq2zPi+//pmg==
+
+prettier-plugin-erb@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-erb/-/prettier-plugin-erb-0.4.0.tgz#5a2a86e02c6360481187aaadd165bc598eda4412"
+  integrity sha512-5RAdvT5BBf29hfC8GmqiMRFiD5g4BZGZDERZHvM5ouOor2TVT0jM0ntmCzFpS2Q32OkUAGFYsRxXDoYscvToXA==
+  dependencies:
+    prettier-html-templates "^0.1.0"
+
+prettier@^3.5.3:
+  version "3.5.3"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.5.3.tgz#4fc2ce0d657e7a02e602549f053b239cb7dfe1b5"
+  integrity sha512-QQtaxnoDJeAkDvDKWCLiwIXkTgRhwYDEQCghU9Z6q03iyek/rxRh/2lC3HB7P8sWT2xC/y5JDctPLBIGzHKbhw==
 
 pretty-hrtime@^1.0.3:
   version "1.0.3"
